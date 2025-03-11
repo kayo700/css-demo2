@@ -103,7 +103,12 @@ header {
 .about-me p {
     color: var(--grey);
 }
-
+.about-me h2{
+    font-size: 1.8rem;
+}
+.about-me p{
+    font-size: 1rem;
+}
 
 .about-me a {
     text-decoration: none;
@@ -115,9 +120,10 @@ header {
 }
 
 .about-me a:hover {
+    transition: all 300ms ease;
     color: var(--grey);
     background-color: rgb(92, 92, 92);
-    transform: scale(11);
+    transform: scale(1.005);
 }
 /* --------------------------------------------------------------------------------------- */
 
