@@ -94,20 +94,20 @@ header {
 .about-me {
     background-color: var(--black);
     padding: 1.5rem 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+
 }
 
 .about-me h2,
 .about-me p {
     color: var(--grey);
+
 }
 .about-me h2{
     font-size: 1.8rem;
 }
 .about-me p{
     font-size: 1rem;
+    margin-block: 1rem;
 }
 
 .about-me a {
